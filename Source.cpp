@@ -2,10 +2,10 @@
 
 int main() {
 	Genjin::GenjinEngine engine;
-	engine.width = 640;
-	engine.height = 480;
-	engine.windowTitle = "My Genjin Game";
-	//engine.fullscreen = true;
+	engine.width = 1300;
+	engine.height = 700;
+	engine.windowTitle = "Genjin Preview";
+	engine.vignette = true;
 	engine.create();
 	return 1;
 }
